@@ -1,0 +1,393 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.header{
+    background-image: url("https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp");
+    background-size: cover;
+    background-position: center;
+    height:90vh;
+    position:relative;
+}
+
+.hero{
+    width:70vw;
+    margin:0 auto;
+    /* border:2px solid red; */
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    height: 6.4rem;
+}
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+.margin{
+    margin-left: 1.0rem;
+}
+.menu p{
+    color:white;
+    font-size: 1.8rem;
+}
+.menu i{
+    color:white;
+    cursor: pointer;
+}
+.btn1{
+   background-color:transparent;
+   outline:none;
+   border:.2px solid white;
+   color:white;
+   border-radius:4px;
+   padding: 0.7rem 1.6rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    cursor:pointer;
+}
+.btn2{
+    background-color:#2781E7;
+   outline:none;
+   border: 2px solid #2781E7;
+   color:white;
+   border-radius:4px;
+   padding: 0.7rem 2.0rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    cursor:pointer;
+}
+.hero-mid{
+    width:70vw;
+    margin:0 auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    margin-top: 5.9rem;
+
+
+}
+.margin2{
+    margin-bottom:1rem;
+}
+.btn{
+    background-color:#2781E7;
+    outline:none;
+    border: 2px solid #2781E7;
+    color:white;
+    border-radius:4px;
+    padding: .7rem 2.0rem;
+     font-size: 1.4rem;
+     text-transform: capitalize;
+     cursor:pointer;
+     /* padding:.5rem; */
+     font-size: 1.7rem;
+    font-weight: 300;
+    padding:1.0rem 2.0rem
+    /* padding: 0px 2.4rem; */
+}
+.btn h1{
+    
+    font-size: 3.8rem;
+}
+.btnb{
+    margin-left:1.0rem;
+}
+/*  */
+
+.container{
+    background-color:rgb(244,244,244);
+    height:40vh;
+    position:relative;
+    
+}
+.position{
+    /* width:70vw; */
+    margin:0 auto;
+    position:absolute;
+    background-color:white;
+    margin-left:20.0rem;
+    height:25.0rem;
+    width:45vw;
+    bottom: 10.0rem;
+    border-radius: 6px;
+
+}
+.text{
+    /* text-align: center; */
+    margin-bottom:2.0rem;
+    text-align:center;
+    
+
+
+}
+.text h1{
+    margin-bottom:1.5rem;
+
+}
+.top{
+   
+    margin:0 3.0rem;
+    display:flex;
+    gap:4.0rem;
+    /* justify-content: center; */
+
+}
+.top ul {
+
+    list-style-position: inside;
+}
+.top ul li{
+    margin-bottom:.5rem;
+    font-size:1.8rem;
+}
+.sec2-container{
+    background-color: rgb(255,255,255);
+
+}
+.sec2{
+    width:80%;
+    margin:9.1rem auto;
+
+}
+.sec2-text{
+    width:100%;
+  
+}
+.sec2-text p{
+    text-align: center;
+    margin-bottom:1.0rem;
+    margin-bottom:2.0rem;
+   
+}
+.sec2-text h1{
+    margin-bottom:2.0rem;
+    text-align:center;
+}
+.sec2-text p{
+    color: rgb(105, 105, 105);
+    font-size: 2.0rem;
+    /* border:.2rem solid red; */
+   
+}
+.sec2-flex{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:2.0rem;
+    /* gap:5.0rem; */
+    /* border:.2rem solid red; */
+}
+.cards{
+    display:flex;
+    gap:2.0rem;
+    align-items:center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* padding:20px; */
+    padding: 12px 48px;
+    border-radius:6px;
+
+
+}
+.para h1{
+    font-size: 24px;
+    color: rgb(37, 111, 239);
+}
+.bac1{
+    z-index: -1;
+}
+.back2{
+   z-index:2;
+}
+
+.back1 img{
+    object-fit:cover;
+    object-position:center;
+    height:100%;
+    width:100%;
+    /* border:2px solid red; */
+    
+}
+.back2{
+    background-color:rgb(244,244,244);
+    height:300px;
+    position:relative;
+
+
+}
+.fl{
+    /* border:2px solid blue; */
+    width:80%;
+    position:absolute;
+    /* margin:0 auto; */ 
+    /* when you do position absolute then margin:0 auto doesnot work you have to use position thing to do it souse below  thing */
+   
+    left:50%;
+    transform:translateX(-50%);
+    bottom:14rem;
+    
+}
+.fl h1{
+    text-align:center;
+    margin-bottom:3rem;
+}
+.card{
+    padding-top:2rem;
+    
+    text-align:center;
+    /* border:2px solid red; */
+    border-radius: 5px;
+    /* height:272px;
+     */
+     width: 27.5rem;
+    height: 33.7rem;
+    background:white;
+}
+.image-section{ 
+    
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:8.0rem;
+    height:8.0rem;
+    border-radius:50%;
+    padding:2.0rem;
+    object-fit:cover;
+    object-position:center;
+    background-color: rgb(255, 252, 241);
+}
+#helo{
+    color: rgb(79, 79, 79);
+}
+.fl-text h4{
+    font-size:2.0rem;
+}
+.fl-text{
+    margin-top:4.0rem;
+}
+#s{
+    background-color: rgb(255, 245, 246);
+}
+#t{
+    background-color: rgb(255, 249, 241);
+}
+.fl-cont{
+    display:flex;
+    justify-content: center;
+    gap:3.0rem;
+}
+.sec4{
+    width:80%;
+    margin:5.0rem auto;
+}
+.sec4 h1{
+    margin-bottom:2.0rem;
+
+}
+.sec4 p{
+    width: 28.7rem;
+    
+}
+.card-text{
+    background-color: white;
+    padding:1.5rem;
+     height: 15.3rem;
+}
+.card-image img{
+    width:100%;
+
+}
+.sec4-card{
+    border-radius:12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sec4-cards
+{
+    display: flex;
+}
+.blue{
+
+     /* cursor:pointer; */
+    color:blue;
+    margin-top:2rem;
+
+}
+.pointer{
+    cursor:pointer;
+}
+
+.footer{
+    margin-top:3.0rem;
+    /* background-color: rgb(244,244,244); */
+    padding:4.0rem 4.0rem;
+}
+.f{
+    width:80%;
+    margin:3.0rem auto;
+    display:flex;
+
+    gap:4.0rem;
+    
+}
+.ftext{
+    /* text-align:center; */
+    width:80%;
+    margin:0 auto;
+}
+.ftext h1{
+    margin-bottom:2.0rem;
+    text-align:center;
+}
+.ftext p{
+    font-size: 2.0rem;
+    line-height: 3.2rem;
+}
+.all{
+    
+    padding:3.0rem;
+    margin-bottom:5.0rem;
+    /* border:.2rem solid red; */
+    width: 32.8rem;
+}
+.all h3{
+    font-weight: 500;
+    margin-bottom:2.0rem;
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+}
+.all p{
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: rgb(105, 105, 105);
+}
+
+.fdiv2 img{
+    height:40.0rem;
+    z-index:1;
+}
+.fdiv2{
+    position:relative;
+}
+
+.iimage{
+    top:0;
+    right:0;
+    position:absolute;
+    /* border:2px solid red; */
+    z-index:-1;
+}
+
+
+
